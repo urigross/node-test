@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="thegame.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="flexcol">
+    <div class="flexrow">
+      <div class="timeline">
+        <div class="timeline2"></div>
+      </div>
+      <h2 class="countdown">5s</h2>
+      <section class="rwwrapper display">
+
+        <div class="rwwords rwwords-1">
+          <span>READY?</span>
+          <span>SET</span>
+          <span>GO!</span>
+        </div>
+  
+  </section>
+      <!-- <h2 class ="msg">Memorize the Taget!</h2> -->
+    </div>
+    <h3>TARGET</h3>
+    <div class="emojis">
+      <div class="emoji"></div>
+      <div class="randomEmojiRun"></div>
+    </div>
+    <div class="levelOne display">
+      <span id="levelup">LEVEL TWO</span>
+    </div>
+    <div class="levelTwo display">
+      <span id="levelup">LEVEL THREE</span>
+    </div>
+    <button class="button" type="button">SAME</button>
+    <div class="board">
+      <div class="flexrow">
+        <p>Points:</p>
+        <p class="count"></p>
+      </div>
+      <div class="flexrow">
+        <p>Level:</p>
+        <p class="level"></p>
+      </div>
+      <div class="hearts">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+      </div>
+    </div>
+
+    <div class="champs display">Game Over:)
+      <button class="buttonEnd display" type="button">NEW GAME</button>
+    </div>
+
+  </div>
+  <script src="confetti.js"></script>
+
+  <script type="module" src="thegame.js"></script>
+
+</body>
+
+</html>

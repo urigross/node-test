@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+
+body {
+  background: linear-gradient(to right, #ff8095, #ffe6ea);
+  
+  margin:0;
+  padding:0;
+ 
+  font-family: sans-serif;
+}
+
+
+
+.container{
+    width:100%;
+    position:relatvie;
+  }
+  
+  .buttonEnd {
+    border-radius: 20%; 
+  border: 0px solid #ff3355;
+  background: #ff1a40;
+  border: none;
+  color: white;
+  /* padding: 10px 30px; */
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  margin-top: 40%;
+  margin-left: 70%;
+  position:absolute;
+
+  }
+
+
+  .div1{
+    font-weight: 600;
+    font-family: 'Erica One', cursive;
+    font-size: 150px;
+    text-align:center;
+    perspective: 800px;
+    position:absolute;
+    top: 20%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .div2{
+    font-family: 'Erica One', cursive;
+    font-size: 150px;
+    text-align:center;
+    font-weight: 600;
+    perspective: 800px;
+    position:absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .div3{
+    font-weight: 600;
+    font-family: 'Erica One', cursive;
+    font-size: 150px;
+    text-align:center;
+    perspective: 800px;
+    position:absolute;
+    top: 60%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  span{
+    display:inline-block;
+    margin-left:-40px;
+    color:#ff1a40;
+    transform-origin: 50% 70%;
+  }
+  
+  span:nth-child(2n){
+    color:#ff8095;
+  }
+  
+  span:nth-child(1){
+    animation: flipper 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) both, fadeIn 1s both;
+  }
+  
+  span:nth-child(2){
+    animation: flipper 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .2s both, fadeIn 1s both;
+  }
+  
+  span:nth-child(3){
+    animation: flipper 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .4s both, fadeIn 1s both;
+  }
+  
+  span:nth-child(4){
+    animation: flipper 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .6s both, fadeIn 1s both;
+  }
+  span:nth-child(5){
+    animation: flipper 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .6s both, fadeIn 1s both;
+  }
+  
+  @keyframes flipper{
+    from{transform: rotateX(90deg);}
+    to{transform: rotateX(0deg);}
+  }
+  
+  @keyframes fadeIn{
+    from{opacity:0};
+    to{opacity:1};
+  }
