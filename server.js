@@ -25,7 +25,7 @@ app.listen(process.env.port || 3000);
 // const express = require('express');
 // const app = express();
 // app.use(express.static("public"));
-// app.set('view engine', "ejs");
+// app.set('view engine', "ejs");git 
 // app.get('/',(req, res) =>{
 //     console.log('here');
 //     res.render("index");
