@@ -10,6 +10,6 @@
     "nodemon": "^2.0.19"
   },
   "scripts": {
-    "devStart": "nodemon server.js"
+    "start": "nodemon server.js"
   }
 }
