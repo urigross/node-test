@@ -160,8 +160,8 @@ function newLevel() {
       let hearts = document.querySelectorAll(".heart");
 
       buttonEnd.onclick = () => {
-        window.location.href = "http://localhost:3000/thegame.html";
-        // window.location.href = "https://test-node2-omega.vercel.app/thegame.html";
+        //window.location.href = "http://localhost:3000/thegame.html";
+        window.location.href = "https://node-test-git-vercel2-urigross.vercel.app/thegame.html";
       }
       var clicked = false;
       button.onclick = () => {
